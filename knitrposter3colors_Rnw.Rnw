@@ -13,20 +13,9 @@
 \setlength{\voffset}{-0.47in}
 \usepackage{geometry}
 
-% Use the confposter theme supplied with this template
-\usetheme{knitr3colors}
-
-
-%%%%%-- Colors customization section --%%%%%
-
-% Define colors (same colors as the one in the confposer.sty file)
-\definecolor{mgreen}{rgb}{0.0,0.6,0.35}
-\definecolor{mblue}{rgb}{0.1,0.4,0.5}
-\definecolor{mred}{rgb}{0.9,0.3,0}
-\definecolor{morange}{rgb}{0.8500,0.3250,0.0980}
-\definecolor{myellow}{rgb}{0.9290,0.6940,0.1250}
-\definecolor{mgrey}{rgb}{0.95,0.95,0.95}
-\definecolor{mblack}{rgb}{0,0,0}
+% Use the knitr-poster-3colors theme supplied with this template
+\usetheme[DarkTheme]{knitr-poster-3colors}
+%\usetheme{knitr-poster-3colors}
 
 % Redefine R code colors
 \renewcommand{\hlnum}[1]{\textcolor{mblue}{#1}}%
